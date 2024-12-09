@@ -9,11 +9,18 @@ export default {
         './resources/views/**/*.blade.php',
         './resources/js/**/*.jsx',
     ],
-
+    safelist: [
+        {
+            pattern: /bg-\[url\(.*\)\]/,
+        },
+    ],
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
+            },
+            colors: {
+                zdPink: '#fa3112',
             },
         },
     },
