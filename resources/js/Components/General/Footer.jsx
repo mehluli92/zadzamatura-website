@@ -11,7 +11,7 @@ export default function Footer() {
     const user = usePage().props.auth.user
 
   return (
-<footer className="h-auto bg-[url('http://localhost:8000/img/corn-img.jpg')] bg-cover bg-center">
+<footer className="h-auto bg-[url('/img/corn-img.jpg')] bg-cover bg-center">
     <div className='md:px-10 bg-green-600 md:bg-green-600/90 z-10 w-full h-full grid md:grid-cols-4 text-white'>
       <div className='p-4 flex flex-col gap-2'>
         <h3 className='font-bold mt-4 mb-2 text-2xl'>Get In Touch</h3>

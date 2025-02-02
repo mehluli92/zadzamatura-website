@@ -23,7 +23,7 @@ export default function Product({data}) {
     {/* First section */}
     <section 
     className="relative h-[200px] md:h-[300px] w-full bg-cover bg-center"
-    style={{ backgroundImage: `url('http://localhost:8000/img/mixed-grains.jpg')` }}        
+    style={{ backgroundImage: `url('/img/mixed-grains.jpg')` }}        
     >
     <div className='bg-black/40 w-full h-full flex items-center justify-center md:justify-start'>
       <div className='p-10'>

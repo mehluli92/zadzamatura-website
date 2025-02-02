@@ -30,7 +30,7 @@ export default function Testimonials({ className }) {
 
     return (
         <div 
-        className={`relative h-64 md:h-[450px] w-full bg-cover bg-center bg-[url('http://localhost:8000/img/soft-wheat.jpg')] ${className}`}
+        className={`relative h-64 md:h-[450px] w-full bg-cover bg-center bg-[url('/img/soft-wheat.jpg')] ${className}`}
         >
             <div className='bg-black/75 w-full h-full flex flex-row justify-center items-center relative'>
                 <div 

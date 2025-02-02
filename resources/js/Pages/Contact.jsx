@@ -15,7 +15,7 @@ export default function Contact() {
     <Head title="Contact Us" />
     <section 
     className="relative h-[200px] md:h-[300px] w-full bg-cover bg-center "
-    style={{ backgroundImage: `url('http://localhost:8000/img/hands.jpg')` }}        
+    style={{ backgroundImage: `url('/img/hands.jpg')` }}        
     >
     <div className='bg-black/30 w-full h-full flex items-center justify-center md:justify-start'>
       <div className='p-10'>

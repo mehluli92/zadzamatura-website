@@ -44,7 +44,7 @@ export default function Welcome({ auth}) {
                     </Link>
 
                     <div 
-                    className={`absolute w-[350px] h-[300px] bottom-0 right-0   bg-[url('http://localhost:8000/img/maize-transparent-svg.svg')]`}
+                    className={`absolute w-[350px] h-[300px] bottom-0 right-0   bg-[url('/img/maize-transparent-svg.svg')]`}
                     >
                     </div>
                 </div>
@@ -61,7 +61,7 @@ export default function Welcome({ auth}) {
                     <GrLinkNext className='text-white w-4' />
                     </Link>
                     <div 
-                    className={`absolute w-[280px] h-[300px] bottom-0 right-0  bg-[url('http://localhost:8000/img/gardener-spray.svg')]`}
+                    className={`absolute w-[280px] h-[300px] bottom-0 right-0  bg-[url('/img/gardener-spray.svg')]`}
                     >
                     </div>
                 </div>

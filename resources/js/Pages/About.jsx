@@ -18,7 +18,7 @@ export default function About() {
     {/** Image and welcome section */}
     <section 
     className="relative h-[200px] md:h-[300px] w-full bg-cover bg-center"
-    style={{ backgroundImage: `url('http://localhost:8000/img/corn-img.jpg')` }}        
+    style={{ backgroundImage: `url('/img/corn-img.jpg')` }}        
     >
     <div className='bg-black/40 w-full h-full flex items-center justify-center md:justify-start'>
       <div className='p-10'>

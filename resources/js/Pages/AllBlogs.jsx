@@ -13,7 +13,7 @@ export default function AllBlogs({data}) {
     {/* First section */}
     <section 
     className="relative h-[200px] md:h-[300px] w-full bg-cover bg-center"
-    style={{ backgroundImage: `url('http://localhost:8000/img/countryside-farming.jpg')` }}        
+    style={{ backgroundImage: `url('/img/countryside-farming.jpg')` }}        
     >
     <div className='bg-black/10 w-full h-full flex items-center justify-center md:justify-start'>
       <div className='p-10 space-y-3'>
