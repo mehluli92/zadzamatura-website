@@ -11,8 +11,8 @@ export default function HomeCorousel() {
   const [imgUrl, setImgUrl] = useState('')
 
   const items = [
-    {id: 1, text: 'Seeds of the Future', longText: 'Partnering with You, From Seed to Harvest.', imgUrl: 'http://localhost:8000/img/barley.jpg' },
-    {id: 2, text: 'Crop Care, Perfected', longText: 'Sustainable Solutions for a Sustainable Future, One Crop at a Time.', imgUrl: 'http://localhost:8000/img/agriculture-tractor.jpg' },
+    {id: 1, text: 'Seeds of the Future', longText: 'Partnering with You, From Seed to Harvest.', imgUrl: '/img/barley.jpg' },
+    {id: 2, text: 'Crop Care, Perfected', longText: 'Sustainable Solutions for a Sustainable Future, One Crop at a Time.', imgUrl: '/img/agriculture-tractor.jpg' },
   ]
 
   const handleNext = () => {
