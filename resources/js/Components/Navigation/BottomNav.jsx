@@ -25,7 +25,7 @@ export default function BottomNav() {
   return (
     <div>
     <nav
-    className={`z-20 w-full bg-green-600 h-[80px] flex md:justify-center items-center md:flex-cols 
+    className={`z-20 w-full bg-deepBlue h-[80px] flex md:justify-center items-center md:flex-cols 
     justify-between px-6 ${isSticky == true ? 'fixed md:top-0': '' }`}
     >  
       <div className='block md:hidden'>
@@ -57,6 +57,12 @@ export default function BottomNav() {
         name='/contact'
         >
          contact
+      </BottomNavLink>
+      <BottomNavLink
+        href={`/sales-agronomists`}
+        name='/sales-agronomists'
+        >
+         sales
       </BottomNavLink>
       <BottomNavLink
         href={`/zadzamatura-blogs`}

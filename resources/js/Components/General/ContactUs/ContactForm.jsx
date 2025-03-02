@@ -23,7 +23,7 @@ export default function ContactForm({className}) {
     }
 
   return (
-    <form className={`bg-green-600 p-12 ${className}`} onSubmit={submit}>
+    <form className={`bg-deepBlue p-12 ${className}`} onSubmit={submit}>
         <div className='flex gap-3'>
             <div>
             <TextInput

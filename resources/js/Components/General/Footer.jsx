@@ -12,12 +12,13 @@ export default function Footer() {
 
   return (
 <footer className="h-auto bg-[url('/img/corn-img.jpg')] bg-cover bg-center">
-    <div className='md:px-10 bg-green-600 md:bg-green-600/90 z-10 w-full h-full grid md:grid-cols-4 text-white'>
+    <div className='md:px-10 bg-deepBlue md:bg-deepBlue z-10 w-full h-full grid md:grid-cols-4 text-white'>
       <div className='p-4 flex flex-col gap-2'>
         <h3 className='font-bold mt-4 mb-2 text-2xl'>Get In Touch</h3>
+        <p className='flex capitalize font-semibold items-center gap-2'>HEAD OFFICE</p>
         <p className='flex items-center gap-2'><CiLocationOn className='text-white text-4xl'/> Plot K of Observatory Farm, Mount Hampden, Harare</p>
         <p className='flex items-center gap-2'><IoMailOpenOutline className='text-white text-2xl' />admin@zadzamatura.co.zw </p>
-        <p className='flex items-center gap-2'><LuPhone className='text-white text-xl' /> +263 772 568329</p>
+        <p className='flex items-center gap-2'><LuPhone className='text-white text-xl' /> +263 24 2003372</p>
       </div>
       <div className='p-4 flex flex-col gap-2'>
       <h3 className='font-bold mt-4 text-2xl'>Quick Links</h3>

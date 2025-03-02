@@ -33,7 +33,7 @@ export default function Careers({careers, filters}) {
     <Head title="Careers" />
     {/** Image and welcome section */}
     <section 
-    className="h-[400px] w-full bg-cover bg-center bg-green-600"
+    className="h-[400px] w-full bg-cover bg-center bg-deepBlue"
     >
     <div className='w-full h-full flex items-center justify-center text-white'>
       <div className='w-full md:w-1/2 justify-start p-4 flex flex-col gap-10'>
@@ -114,7 +114,7 @@ export default function Careers({careers, filters}) {
           <div className="w-full md:w-2/12 md:w-auto flex justify-center gap-2 mt-2 md:mt-6">
             <button
               type="submit"
-              className="inline-flex w-full items-center px-4 py-2 bg-green-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-green-500 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 disabled:opacity-25 transition"
+              className="inline-flex w-full items-center px-4 py-2 bg-deepBlue border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-green-500 active:bg-green-700 focus:outline-none focus:ring focus:ring-green-300 disabled:opacity-25 transition"
             >
               Apply Filters
             </button>

@@ -29,7 +29,7 @@ export default function Product({data}) {
       <div className='p-10'>
         <h2 className='text-white text-4xl md:text-7xl font-bold'>Our Products</h2>
         <div className='flex gap-1 pt-2'>
-        <GreenButton>
+        <GreenButton className="bg-deepBlue">
           <Link
           href={`/`}
           className='flex items-center gap-2 font-semibold z-10'
@@ -68,7 +68,7 @@ export default function Product({data}) {
                 <p className="text-gray-600 text-sm">{product.description}</p>
                
                 <p className="text-gray-800 text-sm">
-                    Available in: <span className='text-green-600'>{product.countries}</span>
+                    Available in: <span className='text-deepBlue'>{product.countries}</span>
                 </p>
             </div>
           ))}
@@ -102,7 +102,7 @@ export default function Product({data}) {
                 <p className="text-gray-600 text-sm">{product.description}</p>
                
                 <p className="text-gray-800 text-sm">
-                    Available in: <span className='text-green-600'>{product.countries}</span>
+                    Available in: <span className='text-deepBlue'>{product.countries}</span>
                 </p>
             </div>
           ))}

@@ -29,7 +29,7 @@ export default function Welcome({ auth}) {
         <div className='absolute h-[600px] md:h-[300px] mx-8 md:mx-32 md:-bottom-[200px] left-0 left-0 right-0'
         >
             <div className='flex h-full w-full flex-col md:flex-row '>
-                <div className='relative bg-green-600 h-full w-full md:w-1/2 text-white flex flex-col gap-2 items-center justify-center px-[40px] '
+                <div className='relative bg-green-600 h-full w-full md:w-1/2 text-white flex flex-col gap-2 items-center justify-center px-[40px] bg-deepBlue'
                 >
                     <h3 className='text-2xl font-bold z-10'>Seeds</h3>
                     <p className='z-10'>
@@ -72,7 +72,7 @@ export default function Welcome({ auth}) {
         
         {/** About Us section */}
         <section 
-        className='bg-green-600 md:h-64 mt-[600px] md:mt-[250px] grid grid-rows-4 md:grid-cols-4 py-16 md:py-32 px-8 md:px-32'
+        className='bg-deepBlue md:h-64 mt-[600px] md:mt-[250px] grid grid-rows-4 md:grid-cols-4 py-16 md:py-32 px-8 md:px-32'
         >
             <div className='flex items-center gap-1 content-center py-6 md:py-0'>
                 <div 
@@ -144,7 +144,7 @@ export default function Welcome({ auth}) {
         </section>
 
         {/** Why Choose Us Section */}
-        <WhyChooseUs className='bg-green-600 md:pt-6 px-8 md:px-32'/>
+        <WhyChooseUs className='bg-deepBlue md:pt-6 px-8 md:px-32'/>
 
 
         {/** Testimonial Section */}

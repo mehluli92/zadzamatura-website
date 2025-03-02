@@ -2,6 +2,7 @@ import Counter from '@/Components/General/Counter'
 import GreenButton from '@/Components/General/GreenButton'
 import RedButton from '@/Components/General/RedButton'
 import SectionTitle from '@/Components/General/SectionTitle'
+import PersonCard from '@/Components/PersonCard'
 import GeneralPageLayout from '@/Layouts/GeneralPageLayout'
 import { Head, Link } from '@inertiajs/react'
 import React from 'react'
@@ -12,6 +13,54 @@ import { GiFarmer } from "react-icons/gi"
 import { SiCommerzbank } from "react-icons/si"
 
 export default function About() {
+
+  const managementContacts = [
+    {
+        name: "Dr. Daniel Myers (PhD)",
+        position: "Managing Director",
+        email: "daniel.myers@zadzamatura.co.zw",
+        phone: "+263 712 602 119",
+        img_url: '/img/sales/person_placeholder.jpg'
+    },
+    {
+        name: "Philemon Mususa",
+        position: "Finance Manager",
+        email: "Philemon.mususa@zadzamatura.co.zw",
+        phone: "+263 717 777 266",
+        img_url: '/img/sales/person_placeholder.jpg'
+    },
+    {
+        name: "Zwelihle Ndlovu",
+        position: "Marketing Manager",
+        email: "zwelihle.ndlovu@zadzamatura.co.zw",
+        phone: "+263 712 611 446",
+        img_url: '/img/sales/person_placeholder.jpg'
+    },
+    {
+        name: "Dennis Simbe",
+        position: "Sales Manager",
+        email: "dennis.simbe@zadzamatura.co.zw",
+        phone: "+263 774 864 006",
+        img_url: '/img/sales/person_placeholder.jpg'
+    },
+    {
+      name: "Talent Ndige",
+      position: "Field Manager",
+      email: "talent.ndige@zadzamatura.co.zw",
+      phone: "+263 771 248 895",
+      img_url: '/img/sales/person_placeholder.jpg'
+    },
+    {
+      name: "Tonderai Masuku",
+      position: "Plant Manager",
+      email: "tonderai.masuku@zadzamatura.co.zw",
+      phone: "+263 712 621 207",
+      img_url: '/img/sales/person_placeholder.jpg'
+    }
+  ];
+
+
+
   return (
     <GeneralPageLayout>
     <Head title="About Us" />
@@ -24,7 +73,7 @@ export default function About() {
       <div className='p-10'>
         <h2 className='text-white text-4xl md:text-7xl font-bold'>About Us</h2>
         <div className='flex gap-1 pt-2'>
-        <GreenButton>
+        <GreenButton className='bg-deepBlue'>
           <Link
           href={`/`}
           className='flex items-center gap-2 font-semibold z-10'
@@ -87,7 +136,7 @@ export default function About() {
 
     {/** Statistics section */}
     <section 
-        className='bg-green-600 md:h-64 my-2 md:my-2 grid grid-rows-4 md:grid-cols-4 py-16 md:py-32 px-8 md:px-32'
+        className='bg-deepBlue md:h-64 my-2 md:my-2 grid grid-rows-4 md:grid-cols-4 py-16 md:py-32 px-8 md:px-32'
         >
             <div className='flex items-center gap-1 content-center py-6 md:py-0'>
                 <div 
@@ -133,7 +182,28 @@ export default function About() {
                 <Counter max={10000}/>
                 </div>
             </div>
-        </section>
+    </section>
+
+    {/** Sales section */}
+    <section 
+    className='py-6 flex flex-col gap-2 justify-start px-10 md:px-20'
+    >
+        <SectionTitle title={'meet our management team'} className='mt-16'/>
+
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+            {managementContacts.map((member, index) => (
+                <div key={index} className="p-4 ">
+                    <PersonCard 
+                    name={member.name}
+                    position={member.position}
+                    email={member.email}
+                    phone={member.phone}
+                    img_url={member.img_url}
+                    />
+                </div>
+            ))}
+        </div>
+    </section>
     </GeneralPageLayout>
   )
 }

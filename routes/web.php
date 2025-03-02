@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 
+//Agronomists page
+Route::get('/sales-agronomists', function () {
+    return Inertia::render('SalesAgronomists');
+});
+
+// Home page
 Route::get('/', [HomeController::class, 'homePage'])->name('home');
 Route::get('/about', [HomeController::class, 'aboutPage'])->name('about');
 Route::get('/contact', [HomeController::class, 'contactPage'])->name('contact');

@@ -21,6 +21,7 @@ export default {
             },
             colors: {
                 zdPink: '#fa3112',
+                deepBlue: '#1F75FE',
             },
         },
     },

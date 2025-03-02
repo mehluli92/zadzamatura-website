@@ -37,7 +37,7 @@ export default function Testimonials({ className }) {
                     onClick={handlePrev}
                     className='bg-white/80 w-10 h-10 flex items-center justify-center cursor-pointer translate-x-10 md:translate-x-5'
                 >
-                    <FaArrowLeftLong className='text-green-600 hover:text-zdPink text-xl' />
+                    <FaArrowLeftLong className='text-deepBlue hover:text-zdPink text-xl' />
                 </div>
                 <div>
                     <TestimonialItem 
@@ -49,7 +49,7 @@ export default function Testimonials({ className }) {
                     onClick={handleNext}
                     className='bg-white/80 w-10 h-10 flex items-center justify-center cursor-pointer -translate-x-10 md:-translate-x-5'
                 >
-                    <FaArrowRightLong className='text-green-600 hover:text-zdPink text-xl' />
+                    <FaArrowRightLong className='text-deepBlue hover:text-zdPink text-xl' />
                 </div>
             </div>
         </div>

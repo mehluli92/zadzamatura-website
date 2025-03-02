@@ -10,9 +10,9 @@ export default function TopNavigation() {
   return (
     <nav className='hidden md:grid grid-cols-12 py-4 items-center px-6 md:h-[125px] text-3xl font-bold'>
       <div className='col-start-1 col-span-3 flex items-center flex-wrap'>
-        <MdOutlinePhonelinkRing className='text-green-600 text-4xl'/>
+        <MdOutlinePhonelinkRing className='text-deepBlue text-4xl'/>
         <p className='flex flex-wrap'>
-          +263772568329
+          +263242003372
         </p>
       </div>
       <div className='col-start-6 col-span-2'>
@@ -20,10 +20,10 @@ export default function TopNavigation() {
       </div>
       
       <div className='col-start-11 col-span-2 flex gap-2 justify-end'>
-        <FaFacebookSquare className='text-green-600 hover:text-black text-4xl' />
-        <FaSquareXTwitter className='text-green-600 hover:text-black text-4xl' />
-        <FaInstagramSquare className='text-green-600 hover:text-black text-4xl'/>
-        <FaLinkedin className='text-green-600 hover:text-black text-4xl'/>
+        <FaFacebookSquare className='text-deepBlue hover:text-black text-4xl' />
+        <FaSquareXTwitter className='text-deepBlue hover:text-black text-4xl' />
+        <FaInstagramSquare className='text-deepBlue hover:text-black text-4xl'/>
+        <FaLinkedin className='text-deepBlue hover:text-black text-4xl'/>
       </div>
     </nav>
   )

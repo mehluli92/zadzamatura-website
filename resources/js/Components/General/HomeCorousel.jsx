@@ -34,6 +34,20 @@ useEffect(() => {
 }, [items.length])
 
   return (
+    // <div className="relative h-[250px] md:h-[500px] w-full overflow-hidden">
+    //   <iframe
+    //     className="absolute top-0 left-0 w-full h-[250px] object-cover"
+    //     src="https://www.youtube.com/embed/85kTHwJ1Ju8?autoplay=1&mute=1&loop=1&playlist=85kTHwJ1Ju8"
+    //     frameBorder="0"
+    //     allow="autoplay; encrypted-media"
+    //     allowFullScreen
+    //     title="Background Video"
+    //   ></iframe>
+    //   <div className="absolute top-0 left-0 w-full h-[250px] bg-black opacity-50"></div>
+    //   <div className="relative z-10 flex items-center justify-center w-full h-full text-white text-4xl">
+    //     <h1>Your Content Here</h1>
+    //   </div>
+    // </div>
     <div>
         <div 
         className="relative h-[250px] md:h-[500px] w-full bg-cover bg-center"
@@ -48,7 +62,7 @@ useEffect(() => {
                 <h2 className='text-white text-2xl md:text-3xl font-bold'>{items[currentIndex].text}</h2>
                 <p className='text-white text-3xl md:text-5xl font-bold'>{items[currentIndex].longText}</p>
                 <div className='flex gap-1 pt-2'>
-                    <GreenButton>
+                    <GreenButton className="bg-deepBlue">
                       <Link 
                       href={`/`}
                       className='flex items-center gap-2 font-semibold z-10'

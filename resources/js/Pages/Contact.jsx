@@ -21,7 +21,7 @@ export default function Contact() {
       <div className='p-10'>
         <h2 className='text-white text-4xl md:text-7xl font-bold'>Contact Us</h2>
         <div className='flex gap-1 pt-2'>
-        <GreenButton>
+        <GreenButton className='bg-deepBlue'>
           <Link
           href={`/`}
           className='flex items-center gap-2 font-semibold z-10'
@@ -45,7 +45,7 @@ export default function Contact() {
       <div className='bg-zdPink flex flex-col gap-3 p-6'>
         <h3 className='text-white text-4xl font-bold'>Get In Touch</h3>
         <div className='flex items-center gap-1'>
-          <span className='bg-green-600 w-16 h-16 rounded-full flex items-center justify-center'>
+          <span className='bg-deepBlue w-16 h-16 rounded-full flex items-center justify-center'>
             <CiLocationOn className='text-white text-4xl'/>
           </span>
           <div className='space-y-1'>
@@ -57,7 +57,7 @@ export default function Contact() {
         </div>
 
         <div className='flex items-center gap-1'>
-          <span className='bg-green-600 w-16 h-16 rounded-full flex items-center justify-center'>
+          <span className='bg-deepBlue w-16 h-16 rounded-full flex items-center justify-center'>
             <IoMailOpenOutline className='text-white text-3xl'/>
           </span>
           <div className='space-y-1'>
@@ -69,7 +69,7 @@ export default function Contact() {
         </div>
 
         <div className='flex items-center gap-1'>
-          <span className='bg-green-600 w-16 h-16 rounded-full flex items-center justify-center'>
+          <span className='bg-deepBlue w-16 h-16 rounded-full flex items-center justify-center'>
             <LuPhone className='text-white text-3xl'/>
           </span>
           <div className='space-y-1'>

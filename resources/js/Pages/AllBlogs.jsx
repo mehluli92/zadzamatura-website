@@ -19,7 +19,7 @@ export default function AllBlogs({data}) {
       <div className='p-10 space-y-3'>
         <h2 className='text-white text-4xl md:text-7xl font-bold'>Blog Posts</h2>
         <div className='flex gap-1 pt-2'>
-        <GreenButton>
+        <GreenButton className='bg-deepBlue'>
           <Link
           href={`/`}
           className='flex items-center gap-2 font-semibold z-10'

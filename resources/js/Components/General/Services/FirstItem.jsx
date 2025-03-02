@@ -10,7 +10,7 @@ export default function FirstItem({className}) {
         <p className='text-gray-700'>
             We offer services to small scale farmers, commercial farmers and individuals. 
         </p>
-        <GreenButton className='w-2/3'>Contact Us</GreenButton>
+        <GreenButton className='w-2/3 bg-deepBlue'>Contact Us</GreenButton>
     </div>
   )
 }
