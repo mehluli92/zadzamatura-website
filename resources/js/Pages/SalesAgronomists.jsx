@@ -32,14 +32,14 @@ export default function SalesAgronomists() {
         },
         {
             name: "John Mashava",
-            email: "John.mashava@zadzamatura.co.zw",
+            email: "john.mashava@zadzamatura.co.zw",
             phone: "+263 772 521 043",
             region: "Manicaland",
             img_url: "/img/sales/person_placeholder.jpg"
         },
         {
             name: "Josaya Mukona",
-            email: "Joshua.mukona@zadzamatura.co.zw",
+            email: "joshua.mukona@zadzamatura.co.zw",
             phone: "+263 772 919 065",
             region: "Masvingo",
             img_url: "/img/sales/person_placeholder.jpg"

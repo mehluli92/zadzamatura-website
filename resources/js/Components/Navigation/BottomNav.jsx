@@ -121,7 +121,7 @@ export default function BottomNav() {
         </button>
      </div>
     </nav>
-    <div className={`bg-green-600  ${showingNavigationDropdown ? 'flex flex-col':'hidden'}`}>
+    <div className={`bg-deepBlue  ${showingNavigationDropdown ? 'flex flex-col':'hidden'}`}>
       <BottomNavLink
         href={`/`}
         >

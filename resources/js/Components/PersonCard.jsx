@@ -21,7 +21,7 @@ export default function PersonCard({
 
         <hr className='pt-2'/>
         <div className='space-y-2'>
-            <p className='text-sm'>
+            <p className='text-sm break-words'>
                 {email}
             </p>
             <p className='text-md font-bold'>

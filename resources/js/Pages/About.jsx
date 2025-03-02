@@ -25,7 +25,7 @@ export default function About() {
     {
         name: "Philemon Mususa",
         position: "Finance Manager",
-        email: "Philemon.mususa@zadzamatura.co.zw",
+        email: "philemon.mususa@zadzamatura.co.zw",
         phone: "+263 717 777 266",
         img_url: '/img/sales/person_placeholder.jpg'
     },
