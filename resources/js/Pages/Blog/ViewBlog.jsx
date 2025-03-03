@@ -6,11 +6,11 @@ import { Head, Link } from '@inertiajs/react'
 import React, { useEffect, useState } from 'react'
 
 export default function ViewBlog({blog}) {
-  const [imgUrl, setImgUrl] = useState('http://localhost:8000/img/countryside-farming.jpg')
+  const [imgUrl, setImgUrl] = useState('/img/countryside-farming.jpg')
 
   useEffect(()=>{
     if (blog) {
-      const newImg = 'http://localhost:8000/uploads/' + blog.image
+      const newImg = '/uploads/' + blog.image
       setImgUrl(newImg)
     }
   },[blog])
